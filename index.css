@@ -1,4 +1,4 @@
-6*{
+*{
     margin: o;
     padding: 0;
     box-sizing: border-box;
@@ -255,6 +255,9 @@ nav ul li a:hover::after{
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+p{
+    right: 20px;
 }
 
 .work:hover img{
