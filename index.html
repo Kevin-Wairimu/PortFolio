@@ -19,12 +19,12 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i> <!-- Changed 'fa-x' to 'fa-xmark' for modern Font Awesome -->
+            <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li> 
          </ul>
          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
        </nav>
        <div class="header-text">
-           <p>UI/UX Designer</p>
+           <p><span>SOFTWARE DEVELOPER</span></p>
            <h1>Hey, I'm <span>Kevin</span><br>Wairimu</h1> 
        </div>
     </div>
@@ -36,32 +36,23 @@
         <div class="container">
             <div class="row">
                 <div class="about-colum-1">
-                <img src="/IMG/mafia avator.jpg" alt="About Me Image"> <!-- Added alt text -->
+                <img src="/IMG/avator.jpg" alt="About Me Image"> <!-- Added alt text -->
                 </div>
                 <div class="about-colum-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint quasi cupiditate! Natus obcaecati distinctio impedit aliquid fugit minus autem esse, recusandae illum architecto ea animi ullam excepturi neque sed?</p>
+                    <p>I’m a software developer passionate about building clean, efficient, and user-friendly applications that solve real-world problems.</p>
 
                     <div class="tab-titles">
                         <!-- Corrected tab-link usage -->
                         <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
-                        <p class="tab-links"  onclick="opentab(event, 'Experience')">Experience</p>
-                        <p class="tab-links"  onclick="opentab(event, 'Education')">Education</p>
                     </div>
-                   
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
-                            <li><span>Web Development</span><br>Web App Development</li> <!-- Typo fix -->
+                            <li><span>JavaScript</span><br></li>
+                            <li><span>Web Development</span><br></li> <!-- Typo fix -->
+                            <li><span>React</span><br></li> <!-- Typo fix -->
+                            <li><span>Node.js</span><br></li> <!-- Typo fix -->
                              <!-- Typo fix -->
-                        </ul>
-                    </div>
-                   
-                    <div class="tab-contents" id="Education">
-                        <ul>
-                            <li><span>Primary Education</span><br>-</li>
-                            <li><span>Secondary Education</span><br>-</li>
-                            
                         </ul>
                     </div>
                 </div>
@@ -146,15 +137,7 @@
                 </div>
                 <a href="/IMG/ " download class="btn btn2">Download CV</a>
             </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required> <!-- Changed type to email -->
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+           
         </div>
     </div>
     <div class="copyright">

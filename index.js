@@ -6,10 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // It handles switching between tab content.
     window.opentab = function(event, tabname) {
-        // Handle cases where 'event' might not be passed (like in your first 'skills' tab)
-        // If event is passed, remove active-link from the current target
-        // Otherwise, it means we're likely activating a default tab without a click event
-        for (let tablink of tablinks) {
+                for (let tablink of tablinks) {
             tablink.classList.remove("active-link");
         }
         for (let tabcontent of tabcontents) {
@@ -19,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event && event.currentTarget) {
             event.currentTarget.classList.add("active-link");
         } else {
-            // If no event, find the tablink corresponding to tabname and make it active
+            // prefer because no lonoger depending on exact text in js fuction caall
             for (let tablink of tablinks) {
                 if (tablink.getAttribute('onclick').includes(tabname)) {
                     tablink.classList.add('active-link');
@@ -63,30 +60,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Google Sheet Form Submission
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxkawasHv6ULKNVWN4LtLhVa00BXkKdZePqrxUeIhrVG3C85otIsK_aEHlOk1eWJfxX/exec';
-    const form = document.forms['submit-to-google-sheet'];
-    const msg = document.getElementById("msg"); // Element to display success/error messages
-
-    if (form) {
-        form.addEventListener('submit', e => {
-            e.preventDefault();
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {
-                    if (msg) {
-                        msg.innerHTML = "Message sent successfully";
-                        setTimeout(() => {
-                            msg.innerHTML = "";
-                        }, 5000);
-                    }
-                    form.reset();
-                })
-                .catch(error => {
-                    console.error('Error!', error.message);
-                    if (msg) {
-                        msg.innerHTML = "Error sending message. Please try again.";
-                    }
-                });
-        });
-    }
+   
 });
