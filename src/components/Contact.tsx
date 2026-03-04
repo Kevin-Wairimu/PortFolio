@@ -70,7 +70,7 @@ const Contact = () => {
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="GitHub"

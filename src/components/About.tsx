@@ -118,14 +118,14 @@ const About = () => {
               >
                 <ul className="timeline-list">
                   <li>
-                    <span>2022 - 2026</span>
+                    <span>2025 - 2026</span>
                     <br />
                     <strong>Institue.Of.Software.Technologies</strong>
                     <br />
-                    Focusing on Software Engineering and Algorithms.
+                    Focusing on Software Development and Algorithms.
                   </li>
                   <li>
-                    <span>2021</span>
+                    <span>2022 - 2023</span>
                     <br />
                     <strong>Web Development Certification</strong>
                     <br />
