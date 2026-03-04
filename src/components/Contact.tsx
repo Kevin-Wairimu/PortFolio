@@ -45,30 +45,30 @@ const Contact = () => {
               <a href="mailto:kevinkhalid21@gmail.com" title="Email Me">
                 <i className="fa-regular fa-envelope"></i>
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Twitter"
               >
                 <i className="fa-brands fa-twitter"></i>
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://instagram.com/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Instagram"
               >
                 <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://linkedin.com/in/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="LinkedIn"
               >
                 <i className="fa-brands fa-linkedin-in"></i>
-              </a>
+              </a> */}
               <a
                 href="https://github.com/"
                 target="_blank"
