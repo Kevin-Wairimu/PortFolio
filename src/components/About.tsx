@@ -20,8 +20,7 @@ const About = () => {
           <div className="row">
             <div className="about-colum-1">
               <div className="img-container">
-                <img src="/IMG/avator.jpg" alt="About Me Image" />
-                <div className="img-border"></div>
+                <img src="/IMG/a.image.png" alt="About Me Image" />
               </div>
             </div>
             <div className="about-colum-2">

@@ -237,7 +237,6 @@ nav ul li a:hover::after{
 
 .img-container {
     position: relative;
-    padding: 20px;
 }
 
 .about-colum-1 img{
@@ -253,18 +252,6 @@ nav ul li a:hover::after{
 .about-colum-1:hover img {
     filter: grayscale(0);
     transform: translateY(-5px);
-}
-
-.img-border {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 3px solid #ff004f;
-    border-radius: 20px;
-    z-index: 0;
-    transform: translate(10px, 10px);
 }
 
 .about-colum-2{
@@ -550,7 +537,7 @@ nav ul li a:hover::after{
 
 /* --------FAQ ACCORDION -------- */
 #faq {
-    padding: 80px 0;
+    padding: 100px 0 50px;
 }
 
 .faq-list {
