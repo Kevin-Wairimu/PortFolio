@@ -41,10 +41,10 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <i className="fa-solid fa-xmark" onClick={closeMenu}></i>
+          <i className="fa-solid fa-xmark" onClick={closeMenu} aria-label="Close menu"></i>
         </li>
       </ul>
-      <i className="fa-solid fa-bars" onClick={openMenu}></i>
+      <i className="fa-solid fa-bars" onClick={openMenu} aria-label="Open menu"></i>
     </nav>
   );
 };

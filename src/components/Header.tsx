@@ -74,12 +74,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-        {/* <div className="scroll-indicator">
-          <div className="mouse">
-            <div className="wheel"></div>
-          </div>
-          <p>Scroll Down</p>
-        </div> */}
       </div>
     </div>
   );

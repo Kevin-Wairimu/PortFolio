@@ -54,14 +54,12 @@ const Portfolio = () => {
                   ))}
                 </div>
                 <div className="work-links">
-                  {/* <a href={work.githubLink} target="_blank" rel="noopener noreferrer" title="View Source">
-                    <i className="fa-brands fa-github"></i>
-                  </a> */}
                   <a
                     href={work.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Live Demo"
+                    aria-label={`View Live Demo of ${work.title}`}
                   >
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
@@ -70,7 +68,6 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-        {/* <a href="#" className="btn">See more</a> */}
       </div>
     </div>
   );
