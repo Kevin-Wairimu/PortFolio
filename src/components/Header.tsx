@@ -56,7 +56,7 @@ const Header = () => {
               <span className="cursor">|</span>
             </p>
             <h1>
-              Hey, I'm <span>Kevin</span>
+              Hello, I'm <span>Kevin</span>
               <br />
               Wairimu
             </h1>
